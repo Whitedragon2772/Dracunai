@@ -1,0 +1,94 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Dragon-Token",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    [
+      {
+        "key": "h",
+        "command": "commandId",
+        "when": "editorTextFocus"
+      },
+
+      "info",
+      {
+        "plugin/ready: Still waiting on:} kubernetes" "info",
+        "plugin/ready: Still waiting on:} kubernetes": "command",
+        53 "info",
+        {
+          "plugin/reload: Running configuration MD5 = db32ca3650231d74073ff4cf814959a7 "CoreDNS-1.8.0",
+          "linux/amd64",
+          "go1.15.3",
+          "54c9ae" ",
+          "key": "wss://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha",
+          "command" "wss://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha",
+          "when": ""
+        },
+        " name" "pkg/mod/k8s.io/client-go@v0.19.2/tools/cache/reflector.go: 156 (09-Aug-2021 23: 14: 54.689) (total time: 21052ms):,
+        "Trace" [
+          2019727887
+        ],
+        : [
+          21.0529285
+        ],
+        [
+          21.0529285
+        ],
+        "END" "E0809",
+        23: null,
+        15: 15.742315,
+        1: null,
+        "reflector.go": 127
+    ],
+    "pkg/mod/k8s.io/client-go@v0.19.2/tools/cache/reflector.go",
+    :,
+    156,
+    :,
+    "Failed",
+    "to",
+    "watch",
+    "*v1.Endpoints",
+    :,
+    "failed",
+    "to",
+    "list",
+    "*v1.Endpoints",
+    :,
+    "Get",
+    "https://10.96.0.1:443/api/v1/endpoints?limit=500&resourceVersion=0",
+    :,
+    "dial",
+    "tcp",
+    "10.96.0.1",
+    :,
+    443,
+    :,
+    "connect",
+    :,
+    "connection",
+    "refused",
+    "0809",
+    2315,
+    15.742331,
+    1,
+    205,
+
+    939984059,
+    "Reflector ListAndWatch",
+    0.19,
+    -215,
+    "09021",
+    23,
+    14,
+    54.689,
+
+    939984059,
+    [
+      21.0529966
+    ],
+    [
+      21.0529966
+    ]
