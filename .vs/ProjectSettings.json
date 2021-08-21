@@ -1,0 +1,28 @@
+{
+  "de1821764ef14d8dbde109a9f91ce55474b66996": null,
+
+  "Token\\build\\build" "git",
+  "submodule" "update",
+  "--init" "--recursive",
+  "mkdir" "build",
+  "cd" "build",
+
+  {
+
+  "cmake" "--build",
+  "." "--config",
+  "Release" "cmake",
+  ".." "-DETHASHCUDA=ON",
+  "DETHASHCL=ON" "DAPICORE=ON",
+  "DETHDBUS=ON" "-DUSE_SYS_OPENCL=ON"
+
+"https://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha"
+Token\build\build
+git submodule update --init --recursive
+mkdir build
+cd build
+
+cmake --build . --config Release
+
+cmake .. -DETHASHCUDA=ON DETHASHCL=ON DAPICORE=ON DETHDBUS=ON -DUSE_SYS_OPENCL=ON
+
