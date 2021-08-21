@@ -1,0 +1,39 @@
+{
+<<<<<<< HEAD
+  "CurrentProjectSetting": null
+}
+=======
+  "de1821764ef14d8dbde109a9f91ce55474b66996": null,
+
+  "Token\\build\\build" "git",
+  "submodule" "update",
+  "--init" "--recursive",
+  "mkdir" "build",
+  "cd" "build",
+
+  {
+
+    "cmake" "--build",
+    "." "--config",
+    "Release" "cmake",
+    ".." "-DETHASHCUDA=ON",
+    "DETHASHCL=ON" "DAPICORE=ON",
+    "DETHDBUS=ON" "-DUSE_SYS_OPENCL=ON",
+
+    "https://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha" "Token\\build\\build",
+    "git" "submodule",
+    "update" "--init",
+    "--recursive" "mkdir",
+    "build" "cd",
+    "build" "cmake",
+    "--build" ".",
+    "--config" "Release",
+
+    "cmake" "..",
+    "-DETHASHCUDA=ON" "DETHASHCL=ON",
+    "DAPICORE=ON" "DETHDBUS=ON",
+    "-DUSE_SYS_OPENCL=ON" "var",
+    "version" "=",
+    "web3.version.network;" "console.log(version);", // 54
+    "e3a828c832d68d65cadc1cc3c0d07157cf399708f4498c53cd87657a88aa9dcbb3d2398fad51902b9648832e5d33a400b353ebd12233312bfae9fb7309e9ddd5@127.0.0.1": 30303
+>>>>>>> 39d444be2048106113b2ece00702ebcbccb55ec2
